@@ -1,0 +1,44 @@
+{
+    "name": "multi-chain-token-checker",
+    "version": "1.0.0",
+    "description": "Track crypto portfolio across multiple EVM chains",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "preview:worker": "npm run build && wrangler dev",
+        "deploy:worker": "npm run build && wrangler deploy"
+    },
+    "keywords": [
+        "crypto",
+        "blockchain",
+        "multi-chain",
+        "portfolio",
+        "ethereum",
+        "polygon",
+        "defi"
+    ],
+    "author": "vyom-modi",
+    "license": "MIT",
+    "dependencies": {
+        "lucide-react": "^0.263.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-scripts": "^5.0.1",
+        "wrangler":"^3.82.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
